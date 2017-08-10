@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center|clip_horizontal"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="6">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:text="ID"
+            android:textColor="#F50057"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/edt_ShareID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:editable="false"
+            android:text="14"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:textColor="#d631302e"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:text="Name"
+            android:textColor="#F50057"
+            android:textSize="16sp"
+            android:padding="4dp"/>
+
+        <EditText
+            android:id="@+id/edt_ShareName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="7"
+            android:editable="false"
+            android:text="10"
+            android:padding="4dp"
+            android:textSize="14sp"
+            android:textColor="#d631302e"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="6">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:textColor="#F50057"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:text="Price(USD)" />
+
+        <EditText
+            android:id="@+id/edt_SharePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="2"
+            android:editable="false"
+            android:text="10"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:textColor="#d631302e"/>
+    </LinearLayout>
+
+
+</LinearLayout>

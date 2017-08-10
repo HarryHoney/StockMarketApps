@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:weightSum="11">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="ID"
+            android:textColor="#FF5722"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_detail_shareid"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:editable="false"
+            android:padding="4dp"
+            android:textColor="#942e2d2b"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Name"
+            android:textColor="#FF5722"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_detail_sharename"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:editable="false"
+            android:padding="4dp"
+            android:textColor="#942e2d2b"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Price"
+            android:textColor="#FF5722"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_detail_shareprice"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:editable="true"
+            android:padding="4dp"
+            android:textColor="#942e2d2b"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Change"
+            android:textColor="#FF5722"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_detail_sharechange"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:editable="false"
+            android:padding="4dp"
+            android:textColor="#942e2d2b"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Time"
+            android:textColor="#FF5722"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_detail_sharetime"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:editable="false"
+            android:padding="4dp"
+            android:textColor="#942e2d2b"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Volume"
+            android:textColor="#FF5722"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_detail_sharevolume"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:editable="false"
+            android:padding="4dp"
+            android:textColor="#942e2d2b"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="High"
+            android:textColor="#FF5722"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_detail_sharehigh"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:editable="false"
+            android:padding="4dp"
+            android:textColor="#942e2d2b"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Open"
+            android:textColor="#FF5722"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_detail_shareopen"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:editable="false"
+            android:padding="4dp"
+            android:textColor="#942e2d2b"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Low"
+            android:textColor="#FF5722"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_detail_sharelow"
+            android:padding="4dp"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:editable="false"
+            android:textColor="#942e2d2b"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Quantity"
+            android:textColor="#FF5722"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_detail_quantity"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:editable="false"
+            android:padding="4dp"
+            android:textColor="#942e2d2b"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Current Money"
+            android:textColor="#FF5722"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/edt_detail_currentmoney"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:editable="false"
+            android:padding="4dp"
+            android:textColor="#942e2d2b"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="11">
+
+        <Button
+            android:id="@+id/btn_detail_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#5C6BC0"
+            android:padding="5dp"
+            android:text="Buy"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_detail_buyorsell"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="9"
+            android:background="@android:color/white"
+            android:hint="type your quantity"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_detail_sell"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#5C6BC0"
+            android:padding="5dp"
+            android:text="Sell"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

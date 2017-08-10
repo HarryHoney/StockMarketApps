@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="6">
+        <EditText
+            android:textColor="#ff0000"
+            android:textSize="10dp"
+            android:id="@+id/edt_stastic_name"
+            android:text="Name"
+            android:singleLine="false"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent" />
+        <EditText
+            android:textColor="#ff0000"
+            android:textSize="10dp"
+            android:id="@+id/edt_stastic_volume"
+            android:text="Volume"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent" />
+        <EditText
+            android:textColor="#ff0000"
+            android:textSize="10dp"
+            android:id="@+id/edt_stastic_percentage"
+            android:text="Lai lo"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent" />
+        <EditText
+            android:textColor="#ff0000"
+            android:textSize="10dp"
+            android:id="@+id/edt_stastic_currentprice"
+            android:text="Current Price"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent" />
+        <EditText
+            android:textColor="#ff0000"
+            android:textSize="10dp"
+            android:id="@+id/edt_stastic_averageprice"
+            android:text="Average Price"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent" />
+</LinearLayout>
